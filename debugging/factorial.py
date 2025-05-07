@@ -15,7 +15,7 @@ if len(sys.argv) != 2:
 try:
     num = int(sys.argv[1])
     if num < 0:
-         print("Error: number must be non-negative")
+        print("Error: number must be non-negative")
         sys.exit(1)
 except ValueError:
     print("Error: input must be an integer")
